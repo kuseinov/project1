@@ -8,6 +8,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -450,8 +451,66 @@ body {
     margin-bottom: 200px;
   }
 }
+@media only screen and (max-width: 1400px) {
+  .menuHeder {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .title {
+    margin-top: 100px;
+  }
+  header {
+    height: 100vh;
+  }
 
-@media only screen and (min-width: 300px) and (max-width: 449px) {
+  .Blok1 {
+    height: 900px;
+    margin-top: -20vh;
+  }
+  .Tel {
+    margin-top: -200px;
+  }
+  .Container3 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -600px;
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .box1 img,
+  .box2 img,
+  .box3 img,
+  .box4 img {
+    margin-left: 0;
+  }
+  .Container4 {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Box5 h3 {
+    margin-left: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .Box5 button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 390px) {
+  body {
+    overflow-x: hidden;
+  }
   .Containerss {
     flex-direction: column;
     margin-left: 20px;
@@ -538,7 +597,7 @@ body {
     margin-left: 100px;
   }
   .footer {
-    min-width: 530px;
+    width: 530px;
   }
 
   .Icons {
@@ -845,115 +904,6 @@ body {
   .TextSenter {
     margin-left: 150px;
   }
-}
-.Input {
-  margin-left: 200px;
-}
-@media only screen and (min-width: 420px) and (max-width: 800px) {
-  .TextTitle {
-    /* margin-left: 200px; */
-    padding-right: 200px;
-    width: 400px;
-  }
-  .flexs {
-  }
-
-  .Input {
-    width: 500px;
-  }
-  .Smartphone {
-    margin-left: 700px;
-  }
-  .Download {
-    margin-left: 70px;
-  }
-  .Foto {
-    width: 1220px;
-  }
-  .Blok1 {
-    width: 1220px;
-  }
-
-  .Container6 {
-    width: 800px;
-    margin-bottom: 40px;
-  }
-
-  .footer {
-    width: 1220px;
-  }
-  .fon {
-    width: 1210px;
-  }
-  .Smartphon {
-    margin-top: -200px;
-    width: 300px;
-    height: 400px;
-  }
-  .H1 {
-    margin-top: -500px;
-    margin-left: 300px;
-    font-size: 33px;
-  }
-  .Appl {
-    margin-left: 300px;
-  }
-  .TextList {
-    margin-left: 280px;
-    width: 600px;
-    font-size: 26px;
-  }
-  .Code {
-    width: 1000px;
-    margin-left: 700px;
-  }
-
-  .ContainerGrid {
-    margin-left: 600px;
-  }
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    width: 600px;
-  }
-  .box1 img,
-  .box2 img,
-  .box3 img,
-  .box4 img {
-    margin-left: 90px;
-  }
-  .Container4 {
-    margin-left: 460px;
-  }
-  .Box8 {
-    margin-left: 700px;
-    width: 500px;
-  }
-  .Container10 {
-    margin-left: 300px;
-  }
-
-  .Center {
-    margin-left: 170px;
-  }
-  .TextTitle p {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .Home {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .IconsSmart {
-    padding-left: 200px;
-  }
-  .TextSenter {
-    margin-left: 150px;
-  }
-}
-.Input {
-  margin-left: 200px;
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .TextTitle {
