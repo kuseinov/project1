@@ -11,6 +11,9 @@
 body {
   overflow-x: hidden;
 }
+.Input {
+  margin-right: 30px;
+}
 .menuHeder {
   display: flex;
   list-style-type: none;
@@ -28,6 +31,9 @@ body {
 }
 .icon {
   padding-left: 20px;
+}
+.Download {
+  margin-left: 300px;
 }
 .title {
   display: flex;
@@ -507,8 +513,15 @@ body {
     gap: 40px;
     margin-top: -270px;
   }
+
+  .Input {
+    width: 400px;
+  }
+  .Input {
+    margin-left: 200px;
+  }
   .TextTitle {
-    margin-right: 80px;
+    margin-right: 120px;
   }
   .Foto {
     width: 559px;
@@ -559,7 +572,8 @@ body {
   }
 
   .Container6 {
-    margin-left: 100px;
+    margin-left: 170px;
+    width: 470px;
   }
   .fon {
     width: 559px;
@@ -581,15 +595,7 @@ body {
   .footer {
     min-width: 530px;
   }
-  .Input {
-    width: 300px;
-    margin-left: 130px;
-    height: 40px;
-  }
-  .button {
-    width: 150px;
-    height: 40px;
-  }
+
   .Icons {
     margin-left: auto;
     margin-right: auto;
@@ -638,6 +644,12 @@ body {
     gap: 40px;
     margin-top: -270px;
   }
+  .Center {
+    margin-left: 200px;
+  }
+  .Smartphone {
+    margin-right: 140px;
+  }
   .TextTitle {
     margin-right: 80px;
   }
@@ -656,9 +668,9 @@ body {
     margin-left: 320px;
   }
   .Container6 {
-    width: 600px;
+    width: 6500px;
     margin-bottom: 40px;
-    margin-right: 50px;
+    margin-left: 400px;
   }
   .IconsSmart {
     margin-right: 200px;
@@ -731,7 +743,6 @@ body {
   .Container6 {
     width: 600px;
     margin-bottom: 40px;
-    margin-left: 400px;
   }
   .IconsSmart {
     padding-left: 200px;
@@ -793,6 +804,12 @@ body {
     padding-right: 200px;
     width: 400px;
   }
+  .flexs {
+  }
+
+  .Input {
+    width: 500px;
+  }
   .Smartphone {
     margin-left: 700px;
   }
@@ -807,9 +824,8 @@ body {
   }
 
   .Container6 {
-    width: 600px;
+    width: 800px;
     margin-bottom: 40px;
-    margin-left: 350px;
   }
 
   .footer {
@@ -900,12 +916,12 @@ body {
   }
 
   .Container6 {
-    width: 700px;
+    width: 900px;
     margin-bottom: 40px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
   }
   .IconsSmart {
-    padding-left: 100px;
+    padding-left: 200px;
   }
   .footer {
     width: 1320px;
@@ -944,7 +960,6 @@ body {
   .box3,
   .box4 {
     width: 500px;
-    margin-right: 110px;
   }
   .box1 img,
   .box2 img,
@@ -975,5 +990,8 @@ body {
   }
   .text3 {
     font-size: 26px;
+  }
+  .Input {
+    width: 700px;
   }
 }
