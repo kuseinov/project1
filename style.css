@@ -8,6 +8,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  overflow-x: hidden;
+}
 .menuHeder {
   display: flex;
   list-style-type: none;
@@ -441,7 +444,7 @@
     margin-bottom: 200px;
   }
 }
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
   .menuHeder {
     margin-right: 0;
     justify-content: center;
@@ -496,39 +499,40 @@
     width: 100%;
     margin-top: 20px;
   }
-}
-@media only screen and (min-width: 350px) and (max-width: 580px) {
+} */
+@media only screen and (min-width: 350px) and (max-width: 449px) {
   .Containerss {
     flex-direction: column;
     margin-left: 20px;
     gap: 40px;
     margin-top: -270px;
   }
+  .TextTitle {
+    margin-right: 80px;
+  }
   .Foto {
-    width: 540px;
+    width: 559px;
   }
   .Blok1 {
-    width: 540px;
+    width: 559px;
   }
   .H1 {
-    margin-top: 40px;
     text-align: center;
     margin-top: -200px;
-    font-size: 16px;
-    margin-left: 140px;
+    font-size: 26px;
+    margin-left: 80px;
   }
   .TextList {
     text-align: center;
     font-size: 16px;
-    padding-left: 30px;
+    padding-left: 100px;
     width: 400px;
   }
   .Smartphon {
     height: 100px;
-    margin-top: 100px;
+    margin-top: 40px;
   }
   .Appl {
-    /* margin-left: 100px; */
     width: 60px;
   }
 
@@ -546,19 +550,19 @@
     margin-bottom: 30px;
   }
   .Code {
-    margin-left: 156px;
+    margin-left: 150px;
     width: 500px;
   }
   .Container3 {
-    margin-left: 40px;
+    margin-left: 80px;
     width: 400px;
   }
 
   .Container6 {
-    margin-left: 120px;
+    margin-left: 100px;
   }
   .fon {
-    width: 500px;
+    width: 559px;
   }
   .Container10 {
     margin-top: 50px;
@@ -567,7 +571,7 @@
   .Contact {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 140px;
   }
   .TextSenter {
     width: 300px;
@@ -578,16 +582,16 @@
     min-width: 530px;
   }
   .Input {
-    width: 300px; /* adjust this value as needed */
+    width: 300px;
     margin-left: 130px;
-    height: 40px; /* adjust this value as needed */
+    height: 40px;
   }
   .button {
-    width: 150px; /* adjust this value as needed */
-    height: 40px; /* adjust this value as needed */
+    width: 150px;
+    height: 40px;
   }
   .Icons {
-    margin-left: auto; /* center the content horizontally */
+    margin-left: auto;
     margin-right: auto;
   }
   .TextTitle {
@@ -603,236 +607,373 @@
   .IconsSmart {
     padding-left: 170px;
   }
+  .footer {
+    width: 560px;
+  }
 }
-@media only screen and (min-width: 420px) and (max-width: 800px) {
+@media only screen and (min-width: 375px) {
+  .Container6 {
+    margin-left: 150px;
+  }
+}
+@media only screen and (min-width: 360px) {
+  .Container6 {
+    margin-left: 150px;
+  }
+  .text3 {
+    margin-left: 90px;
+  }
+  .Box8 {
+    margin-left: 120px;
+  }
+  .TextTitle {
+    margin-left: 170px;
+  }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 1100px) {
   .Containerss {
     flex-direction: column;
     margin-left: 20px;
     gap: 40px;
     margin-top: -270px;
   }
-
-  .H1 {
-    margin-top: 40px;
-    text-align: center;
-    margin-top: -180px;
-    font-size: 16px;
-    margin-left: 140px;
-  }
-  .TextList {
-    text-align: center;
-    font-size: 16px;
-    padding-left: 10px;
-    width: 460px;
-  }
-  .Smartphon {
-    height: 100px;
-    margin-top: 100px;
-  }
-  .Appl {
-    /* margin-left: 100px; */
-    width: 60px;
-  }
-  .Box9 {
-    /* margin-bottom: 20px; */
-  }
-  .fon {
-    width: 100%;
-  }
-  .Box5 button {
-    width: 200px;
-    height: 51px;
-    margin: 0 auto;
-  }
-  .text3 {
-    width: 400px;
-    margin-left: 40px;
-    margin-bottom: 30px;
-  }
-  .Code {
-    margin-left: 60px;
-    width: 500px;
-  }
-  .Container3 {
-    margin-left: 70px;
-    width: 400px;
-  }
-
-  .Container6 {
-    margin-left: 50px;
-  }
-  .fon {
-    width: 580px;
-  }
-  .Container10 {
-    margin-top: 50px;
-    margin-left: 10px;
-  }
-  .Contact {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-  }
-  .TextSenter {
-    width: 300px;
-    height: 50px;
-    margin-left: 130px;
-  }
-  .footer {
-    min-width: 580px;
-  }
-  .Input {
-    width: 300px;
-    margin-left: 30px;
-    height: 40px;
-  }
-  .button {
-    width: 150px;
-    height: 40px;
-  }
-  .Icons {
-    margin-left: auto;
-    margin-right: auto;
-  }
   .TextTitle {
-    margin-left: 40px;
+    margin-right: 80px;
   }
-  .Home {
-    text-align: center;
-    margin-left: 40px;
+  .Foto {
+    width: 910px;
   }
-  .Info {
-    margin-left: 40px;
+  .Blok1 {
+    width: 910px;
+  }
+
+  .ContainerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 11px;
+    grid-row-gap: 13px;
+    margin-left: 320px;
+  }
+  .Container6 {
+    width: 600px;
+    margin-bottom: 40px;
+    margin-right: 50px;
   }
   .IconsSmart {
-    padding-left: 170px;
+    margin-right: 200px;
+  }
+  .footer {
+    width: 910px;
+  }
+  .fon {
+    width: 910px;
+  }
+  .Smartphon {
+    margin-top: -200px;
+    width: 300px;
+    height: 400px;
+  }
+  .H1 {
+    margin-top: -400px;
+    margin-left: 300px;
+  }
+  .Appl {
+    margin-left: 300px;
+  }
+  .TextList {
+    margin-left: 270px;
+    width: 600px;
+  }
+  .Code {
+    width: 800px;
+  }
+  .Contact {
+    width: 500px;
+  }
+  .TextSenter {
+    margin-left: 300px;
+  }
+  .Contact h1 {
+    margin-left: 200px;
   }
 }
-
-@media only screen and (min-width: 440px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) and (max-width: 912px) {
   .Containerss {
     flex-direction: column;
     margin-left: 20px;
     gap: 40px;
-    margin-top: -470px;
+    margin-top: -270px;
+  }
+  .TextTitle {
+    margin-left: 300px;
+  }
+  .Smartphone {
+    margin-left: 580px;
+  }
+  .Foto {
+    width: 1220px;
+  }
+  .Blok1 {
+    width: 1220px;
+  }
+  .Download {
+    margin-left: 100px;
   }
 
-  .H1 {
-    margin-top: 40px;
-    text-align: center;
-    margin-top: -400px;
-    margin-left: 140px;
-  }
-  .TextList {
-    text-align: center;
-    padding-left: 100px;
-  }
-  .Smartphon {
-    height: 400px;
-    margin-top: -30px;
-  }
-  .Appl {
-    margin-left: 70px;
-    width: 60px;
-    margin-top: 140px;
-  }
-  .Box8 {
+  .ContainerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 101px;
+    /* grid-row-gap: 100px; */
     margin-left: 400px;
-    width: 500px;
+  }
+  .Container6 {
+    width: 600px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+  }
+  .IconsSmart {
+    padding-left: 200px;
+  }
+  .footer {
+    width: 1220px;
   }
   .fon {
-    width: 100%;
+    width: 1210px;
   }
-  .Box5 button {
-    width: 200px;
-    height: 51px;
-    margin-left: 400px;
+  .Smartphon {
+    margin-top: -200px;
+    width: 300px;
+    height: 400px;
   }
   .H1 {
-    margin-top: 40px;
-    text-align: center;
     margin-top: -400px;
-    margin-left: 140px;
+    margin-left: 300px;
+    font-size: 33px;
+  }
+  .Appl {
+    margin-left: 300px;
   }
   .TextList {
-    text-align: center;
-    padding-left: 300px;
-    width: 560px;
-  }
-  .text3 {
-    width: 600px;
-    margin-bottom: 30px;
-    margin-left: 190px;
-  }
-  .Code {
-    margin-left: 500px;
-    width: 700px;
-  }
-  .Container3 {
     margin-left: 270px;
     width: 600px;
+    font-size: 26px;
+  }
+  .Code {
+    width: 1000px;
+    margin-left: 410px;
+  }
+  .Contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 13px;
+    margin-left: 250px;
+  }
+  .Home {
+    margin-left: 200px;
+  }
+  .TextSenter {
+    margin-left: 300px;
+  }
+  .Contact h1 {
+    margin-left: 200px;
+  }
+  .TextSenter {
+    margin-left: 400px;
+  }
+  .Input {
+    width: 500px;
+    margin-left: 200px;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .TextTitle {
+    /* margin-left: 200px; */
+    padding-right: 200px;
+    width: 400px;
+  }
+  .Smartphone {
+    margin-left: 700px;
+  }
+  .Download {
+    margin-left: 70px;
+  }
+  .Foto {
+    width: 1220px;
+  }
+  .Blok1 {
+    width: 1220px;
   }
 
   .Container6 {
-    margin-left: 500px;
-  }
-  .fon {
-    width: 1080px;
-  }
-  .Container10 {
-    margin-top: 50px;
-    margin-left: 10px;
-  }
-  .Contact {
-    display: flex;
-    flex-direction: column;
-    margin-left: 400px;
-  }
-  .TextSenter {
-    width: 300px;
-    height: 50px;
-    margin-left: 370px;
-  }
-  .footer {
-    min-width: 580px;
-  }
-  .Input {
-    width: 300px;
-    margin-left: 30px;
-    height: 40px;
-  }
-  .button {
-    width: 150px;
-    height: 40px;
-  }
-  .Icons {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .TextTitle {
-    margin-left: 400px;
+    width: 600px;
+    margin-bottom: 40px;
+    margin-left: 350px;
   }
 
-  .Info {
-    margin-left: 40px;
-  }
-  .flex {
-    width: 600px;
-  }
-  .Foto {
-    width: 1100px;
-  }
-  .Blok1 {
-    width: 1100px;
-  }
   .footer {
-    width: 1100px;
+    width: 1220px;
   }
-  .Center {
-    margin-left: 200px;
+  .fon {
+    width: 1210px;
+  }
+  .Smartphon {
+    margin-top: -200px;
+    width: 300px;
+    height: 400px;
+  }
+  .H1 {
+    margin-top: -500px;
+    margin-left: 300px;
+    font-size: 33px;
+  }
+  .Appl {
+    margin-left: 300px;
+  }
+  .TextList {
+    margin-left: 280px;
     width: 600px;
+    font-size: 26px;
+  }
+  .Code {
+    width: 1000px;
+    margin-left: 700px;
+  }
+
+  .ContainerGrid {
+    margin-left: 600px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 600px;
+  }
+  .box1 img,
+  .box2 img,
+  .box3 img,
+  .box4 img {
+    margin-left: 90px;
+  }
+  .Container4 {
+    margin-left: 460px;
+  }
+  .Box8 {
+    margin-left: 700px;
+    width: 500px;
+  }
+  .Container10 {
+    margin-left: 300px;
+  }
+
+  .Center {
+    margin-left: 170px;
+  }
+  .TextTitle p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Home {
+    font-size: 20px;
+    font-weight: 500;
   }
   .IconsSmart {
-    padding-left: 280px;
+    padding-left: 200px;
+  }
+  .TextSenter {
+    margin-left: 150px;
+  }
+}
+.Input {
+  margin-left: 200px;
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .TextTitle {
+    margin-left: 200px;
+  }
+  .Foto {
+    width: 1320px;
+  }
+  .Blok1 {
+    width: 1320px;
+  }
+
+  .Container6 {
+    width: 700px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+  }
+  .IconsSmart {
+    padding-left: 100px;
+  }
+  .footer {
+    width: 1320px;
+  }
+  .fon {
+    width: 1320px;
+  }
+  .Smartphon {
+    margin-top: -200px;
+    width: 300px;
+    height: 400px;
+  }
+  .H1 {
+    margin-top: -400px;
+    margin-left: 300px;
+    font-size: 33px;
+  }
+  .Appl {
+    margin-left: 300px;
+  }
+  .TextList {
+    margin-left: 300px;
+    width: 600px;
+    font-size: 26px;
+  }
+  .Code {
+    width: 1000px;
+    margin-left: 590px;
+  }
+
+  .ContainerGrid {
+    margin-left: 600px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 500px;
+    margin-right: 110px;
+  }
+  .box1 img,
+  .box2 img,
+  .box3 img,
+  .box4 img {
+    margin-left: 10px;
+  }
+  .Container4 {
+    margin-left: 420px;
+  }
+  .Box8 {
+    margin-left: 700px;
+    width: 500px;
+  }
+  .Container10 {
+    margin-left: 300px;
+  }
+
+  .Center {
+    margin-left: 170px;
+  }
+  .ContainerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 11px;
+    grid-row-gap: 13px;
+    margin-left: 630px;
+  }
+  .text3 {
+    font-size: 26px;
   }
 }
