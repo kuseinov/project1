@@ -1,0 +1,838 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.menuHeder {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+  margin-right: 120px;
+  gap: 50px;
+  margin-top: 20px;
+  color: #ffffff;
+  padding-top: 40px;
+}
+.title1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.icon {
+  padding-left: 20px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 100px;
+  gap: 30px;
+}
+.Button1 {
+  width: 169px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: none;
+}
+.Button2 {
+  width: 144px;
+  border-radius: 3px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  background-color: #33d2fd;
+}
+.Foto {
+  background-image: url(images/Backgroundblok1.svg);
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+  width: 100%;
+}
+
+.Blok1 {
+  background-image: url(images/Backgroundblok.svg);
+  position: relative;
+  z-index: 2;
+  height: 1200px;
+  margin-top: -35vh;
+}
+.Tel {
+  display: flex;
+  position: relative;
+  margin-top: -500px;
+  justify-content: center;
+}
+.Container3 {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  margin-top: -900px;
+  position: relative;
+  z-index: 10;
+}
+
+.text {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.box1 {
+  width: 271px;
+  height: 322px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.box2 {
+  margin-top: 30px;
+  width: 271px;
+  height: 322px;
+  background-color: #ffffff;
+
+  border-radius: 10px;
+  margin-left: -40px;
+}
+.box3 {
+  margin-top: 50px;
+  width: 271px;
+  height: 322px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.box4 {
+  margin-top: 30px;
+  width: 271px;
+  height: 322px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: -30px;
+}
+.box1 img {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.box2 img {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.box3 img {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.box4 img {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.box1 p {
+  color: #6a6d89;
+  text-align: center;
+}
+.box2 p {
+  color: #6a6d89;
+  text-align: center;
+}
+.box3 p {
+  color: #6a6d89;
+  text-align: center;
+}
+.box4 p {
+  color: #6a6d89;
+  text-align: center;
+}
+.Container4 {
+  margin-top: 400px;
+  display: flex;
+}
+.Box5 {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.Box5 h3 {
+  margin-left: 300px;
+  margin-bottom: 40px;
+}
+.Box5 button {
+  width: 201px;
+  height: 51px;
+  background-color: #33d2fd;
+  border: none;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.Container6 {
+  margin-left: 300px;
+}
+.flex {
+  display: flex;
+  width: 543px;
+  height: 79px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-radius: 4px;
+  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+}
+.flex img {
+  width: 50px;
+  height: 20px;
+}
+.flexs {
+  display: flex;
+  width: 300px;
+}
+
+.flexs p {
+  margin-left: 30px;
+  width: 500px;
+}
+.box6 {
+  margin-top: 30px;
+  width: 543px;
+  height: 138px;
+  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+  background-color: #33d2fd;
+}
+
+.box6 h2 {
+  margin-left: 50px;
+  padding-top: 10px;
+}
+.Container8 {
+  display: flex;
+  margin-left: 40px;
+}
+.Box8 {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+.Box9 {
+  color: #6a6d89;
+  margin-top: 30px;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #33d2fd;
+}
+
+.text2 {
+  margin-top: 40px;
+}
+.fon {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.Containerss {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  z-index: 20;
+  position: relative;
+  margin-top: -700px;
+}
+.H1 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.TextList {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.Container10 {
+  margin-top: 90px;
+  z-index: 30;
+  position: relative;
+}
+.Contact {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+.TextSenter {
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 371px;
+  height: 71px;
+  box-shadow: 0 11px 29px rgba(255, 7, 95, 0.2);
+  background-image: linear-gradient(to bottom, #ff7c6e 1%, #f5317f 99%);
+}
+.TextTitle {
+  text-align: center;
+}
+.Input {
+  width: 571px;
+  height: 51px;
+  background-color: #f6f7fb;
+  border: none;
+}
+.button {
+  width: 171px;
+  height: 51px;
+  background-color: #33d2fd;
+  border: none;
+  margin-bottom: 200px;
+}
+.Center {
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #233148;
+}
+.Flex {
+  display: flex;
+  gap: 40px;
+  padding-top: 30px;
+}
+.Flex p {
+  color: #ffffff;
+}
+.Icons {
+  margin-left: 800px;
+  display: flex;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .menuHeder {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .title {
+    margin-top: 100px;
+  }
+  header {
+    height: 100vh;
+  }
+
+  .Blok1 {
+    height: 900px;
+    margin-top: -20vh;
+  }
+  .Tel {
+    margin-top: -300px;
+  }
+  .Container3 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -600px;
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .box1 img,
+  .box2 img,
+  .box3 img,
+  .box4 img {
+    margin-left: 0;
+  }
+  .Container4 {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Box5 h3 {
+    margin-left: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .Box5 button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .Container6 {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .flex {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .flex img {
+    width: 40px;
+    height: 16px;
+  }
+  .flexs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box6 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .box6 h2 {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .flexs p {
+    width: 200px;
+  }
+  .Container8 {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .Box8 {
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .Containerss {
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 60px;
+    margin-top: -270px;
+  }
+
+  .H1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-top: -240px;
+  }
+  .TextC {
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 45px;
+  }
+  .Smartphon {
+    height: 200px;
+  }
+  .Appl {
+    margin-left: 100px;
+  }
+  .Box9 {
+    margin-bottom: 20px;
+  }
+  .ContainerButton {
+    margin-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .menuHeder {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .title {
+    margin-top: 100px;
+  }
+  header {
+    height: 100vh;
+  }
+
+  .Blok1 {
+    height: 900px;
+    margin-top: -20vh;
+  }
+  .Tel {
+    margin-top: -200px;
+  }
+  .Container3 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -600px;
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .box1 img,
+  .box2 img,
+  .box3 img,
+  .box4 img {
+    margin-left: 0;
+  }
+  .Container4 {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Box5 h3 {
+    margin-left: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .Box5 button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 580px) {
+  .Containerss {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 40px;
+    margin-top: -270px;
+  }
+  .Foto {
+    width: 540px;
+  }
+  .Blok1 {
+    width: 540px;
+  }
+  .H1 {
+    margin-top: 40px;
+    text-align: center;
+    margin-top: -200px;
+    font-size: 16px;
+    margin-left: 140px;
+  }
+  .TextList {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 30px;
+    width: 400px;
+  }
+  .Smartphon {
+    height: 100px;
+    margin-top: 100px;
+  }
+  .Appl {
+    /* margin-left: 100px; */
+    width: 60px;
+  }
+
+  .fon {
+    width: 100%;
+  }
+  .Box5 button {
+    width: 200px;
+    height: 51px;
+    margin: 0 auto;
+  }
+  .text3 {
+    width: 400px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+  .Code {
+    margin-left: 156px;
+    width: 500px;
+  }
+  .Container3 {
+    margin-left: 40px;
+    width: 400px;
+  }
+
+  .Container6 {
+    margin-left: 120px;
+  }
+  .fon {
+    width: 500px;
+  }
+  .Container10 {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .TextSenter {
+    width: 300px;
+    height: 50px;
+    margin-left: 100px;
+  }
+  .footer {
+    min-width: 530px;
+  }
+  .Input {
+    width: 300px; /* adjust this value as needed */
+    margin-left: 130px;
+    height: 40px; /* adjust this value as needed */
+  }
+  .button {
+    width: 150px; /* adjust this value as needed */
+    height: 40px; /* adjust this value as needed */
+  }
+  .Icons {
+    margin-left: auto; /* center the content horizontally */
+    margin-right: auto;
+  }
+  .TextTitle {
+    margin-left: 130px;
+  }
+  .Home {
+    text-align: center;
+    margin-left: 40px;
+  }
+  .Info {
+    margin-left: 40px;
+  }
+  .IconsSmart {
+    padding-left: 170px;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 800px) {
+  .Containerss {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 40px;
+    margin-top: -270px;
+  }
+
+  .H1 {
+    margin-top: 40px;
+    text-align: center;
+    margin-top: -180px;
+    font-size: 16px;
+    margin-left: 140px;
+  }
+  .TextList {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 10px;
+    width: 460px;
+  }
+  .Smartphon {
+    height: 100px;
+    margin-top: 100px;
+  }
+  .Appl {
+    /* margin-left: 100px; */
+    width: 60px;
+  }
+  .Box9 {
+    /* margin-bottom: 20px; */
+  }
+  .fon {
+    width: 100%;
+  }
+  .Box5 button {
+    width: 200px;
+    height: 51px;
+    margin: 0 auto;
+  }
+  .text3 {
+    width: 400px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+  .Code {
+    margin-left: 60px;
+    width: 500px;
+  }
+  .Container3 {
+    margin-left: 70px;
+    width: 400px;
+  }
+
+  .Container6 {
+    margin-left: 50px;
+  }
+  .fon {
+    width: 580px;
+  }
+  .Container10 {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .TextSenter {
+    width: 300px;
+    height: 50px;
+    margin-left: 130px;
+  }
+  .footer {
+    min-width: 580px;
+  }
+  .Input {
+    width: 300px;
+    margin-left: 30px;
+    height: 40px;
+  }
+  .button {
+    width: 150px;
+    height: 40px;
+  }
+  .Icons {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .TextTitle {
+    margin-left: 40px;
+  }
+  .Home {
+    text-align: center;
+    margin-left: 40px;
+  }
+  .Info {
+    margin-left: 40px;
+  }
+  .IconsSmart {
+    padding-left: 170px;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 1200px) {
+  .Containerss {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 40px;
+    margin-top: -470px;
+  }
+
+  .H1 {
+    margin-top: 40px;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 140px;
+  }
+  .TextList {
+    text-align: center;
+    padding-left: 100px;
+  }
+  .Smartphon {
+    height: 400px;
+    margin-top: -30px;
+  }
+  .Appl {
+    margin-left: 70px;
+    width: 60px;
+    margin-top: 140px;
+  }
+  .Box8 {
+    margin-left: 400px;
+    width: 500px;
+  }
+  .fon {
+    width: 100%;
+  }
+  .Box5 button {
+    width: 200px;
+    height: 51px;
+    margin-left: 400px;
+  }
+  .H1 {
+    margin-top: 40px;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 140px;
+  }
+  .TextList {
+    text-align: center;
+    padding-left: 300px;
+    width: 560px;
+  }
+  .text3 {
+    width: 600px;
+    margin-bottom: 30px;
+    margin-left: 190px;
+  }
+  .Code {
+    margin-left: 500px;
+    width: 700px;
+  }
+  .Container3 {
+    margin-left: 270px;
+    width: 600px;
+  }
+
+  .Container6 {
+    margin-left: 500px;
+  }
+  .fon {
+    width: 1080px;
+  }
+  .Container10 {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+  }
+  .TextSenter {
+    width: 300px;
+    height: 50px;
+    margin-left: 370px;
+  }
+  .footer {
+    min-width: 580px;
+  }
+  .Input {
+    width: 300px;
+    margin-left: 30px;
+    height: 40px;
+  }
+  .button {
+    width: 150px;
+    height: 40px;
+  }
+  .Icons {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .TextTitle {
+    margin-left: 400px;
+  }
+
+  .Info {
+    margin-left: 40px;
+  }
+  .flex {
+    width: 600px;
+  }
+  .Foto {
+    width: 1100px;
+  }
+  .Blok1 {
+    width: 1100px;
+  }
+  .footer {
+    width: 1100px;
+  }
+  .Center {
+    margin-left: 200px;
+    width: 600px;
+  }
+  .IconsSmart {
+    padding-left: 280px;
+  }
+}
