@@ -1,9 +1,13 @@
 @import url(./css/reset.css);
-.contaners {
-  max-width: 1230px;
-  padding: 0 30px;
+
+.containers {
+  top: 0;
+  max-width: 100%;
+  padding: 0 80px;
   margin: 0 auto;
+  background-image: url(./img/images/Backgroundblok1.svg);
 }
+
 .smart-center-header {
   margin-bottom: 30px;
 }
@@ -281,7 +285,7 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .mesej {
     margin-top: 20px;
   }
