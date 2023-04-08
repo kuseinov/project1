@@ -1,998 +1,235 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(./css/reset.css);
+.contaners {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
-
-body {
-  overflow-x: hidden;
+.smart-center-header {
+  margin-bottom: 30px;
 }
-.Input {
-  margin-right: 30px;
-}
-.menuHeder {
+.nav-list {
   display: flex;
-  list-style-type: none;
-  justify-content: end;
-  margin-right: 120px;
-  gap: 50px;
-  margin-top: 20px;
-  color: #ffffff;
-  padding-top: 40px;
+  justify-content: flex-end;
+  column-gap: 40px;
+  margin-bottom: 100px;
+  margin-right: 50px;
 }
-.title1 {
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
-}
-.icon {
-  padding-left: 20px;
-}
-.button23 {
-  margin-left: 300px;
-}
-.title {
+.header-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 45px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: 100px;
-  gap: 30px;
+  gap: 10px;
 }
-.Button1 {
-  width: 169px;
-  height: 40px;
-  background-color: #ffffff;
-  border-radius: 3px;
-  border: none;
-}
-.Button2 {
-  width: 144px;
-  border-radius: 3px;
-  height: 42px;
-  border: 1px solid #ffffff;
-  background-color: #33d2fd;
-}
-.Foto {
-  background-image: url(./img/images/Backgroundblok1.svg);
-  background-size: cover;
-  background-position: center;
-  height: 140vh;
-  width: 100%;
-}
-
-.Blok1 {
-  background-image: url(./img/images/Backgroundblok.svg);
-  position: relative;
-  z-index: 2;
-  height: 1200px;
-  margin-top: -35vh;
-}
-.Tel {
-  display: flex;
-  position: relative;
-  margin-top: -500px;
-  justify-content: center;
-}
-.Container3 {
-  display: flex;
-  gap: 30px;
-  justify-content: space-around;
-  margin-top: -900px;
-  position: relative;
-  z-index: 10;
-}
-
-.text {
+.btn-header {
   margin-bottom: 30px;
+}
+.info-Smart {
+  max-width: 200px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+.corzina-card {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.title-card {
   text-align: center;
+  margin-bottom: 10px;
 }
-.box1 {
-  width: 271px;
-  height: 322px;
-  background-color: #ffffff;
-  border-radius: 10px;
+.info-Smart p {
+  text-align: center;
+  padding: 0 10px;
 }
-.box2 {
-  margin-top: 30px;
-  width: 271px;
-  height: 322px;
-  background-color: #ffffff;
-
-  border-radius: 10px;
-  margin-left: -40px;
+.content-smart {
+  display: flex;
+  justify-content: space-around;
 }
-.box3 {
+.card-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 41px;
+  grid-row-gap: 20px;
+  margin-left: 100px;
+}
+.cart-2 {
   margin-top: 50px;
-  width: 271px;
-  height: 322px;
-  background-color: #ffffff;
-  border-radius: 10px;
+  margin-left: 20px;
 }
-.box4 {
-  margin-top: 30px;
-  width: 271px;
-  height: 322px;
-  border-radius: 10px;
-  background-color: #ffffff;
+.cart-3 {
+  margin-top: 50px;
   margin-left: -30px;
 }
-.box1 img {
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-bottom: 30px;
-}
-.box2 img {
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-bottom: 30px;
-}
-.box3 img {
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-bottom: 30px;
-}
-.box4 img {
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-bottom: 30px;
-}
-.box1 p {
-  color: #6a6d89;
-  text-align: center;
-}
-.box2 p {
-  color: #6a6d89;
-  text-align: center;
-}
-.box3 p {
-  color: #6a6d89;
-  text-align: center;
-}
-.box4 p {
-  color: #6a6d89;
-  text-align: center;
-}
-.Container4 {
-  margin-top: 400px;
-  display: flex;
-}
-.Box5 {
-  display: flex;
-  width: 500px;
-  flex-direction: column;
-  margin-left: 100px;
-}
-.Box5 h3 {
-  margin-left: 300px;
-  margin-bottom: 40px;
-}
-.Box5 button {
-  width: 201px;
-  height: 51px;
-  background-color: #33d2fd;
-  border: none;
-  border-radius: 3px;
-  margin-top: 30px;
-}
-.Container6 {
-  margin-left: 300px;
-}
-.flex {
-  display: flex;
-  width: 543px;
-  height: 79px;
-  background-color: #ffffff;
-  margin-top: 30px;
-  padding-top: 30px;
-  border-radius: 4px;
-  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
-}
-.flex img {
-  width: 50px;
-  height: 20px;
-}
-.flexs {
-  display: flex;
-  width: 300px;
-}
 
-.flexs p {
-  margin-left: 30px;
-  width: 500px;
-}
-.box6 {
-  margin-top: 30px;
-  width: 543px;
-  height: 138px;
-  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
-  background-color: #33d2fd;
-}
-
-.box6 h2 {
-  margin-left: 50px;
-  padding-top: 10px;
-}
-.Container8 {
+.info-container {
   display: flex;
-  margin-left: 40px;
-}
-.Box8 {
-  margin-left: 300px;
-  margin-top: 40px;
-}
-.Box9 {
-  color: #6a6d89;
-  margin-top: 30px;
-}
-.color {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #33d2fd;
-}
-
-.text2 {
-  margin-top: 40px;
-}
-.fon {
-  width: 100%;
-  position: relative;
-  z-index: 0;
-}
-
-.Containerss {
-  display: flex;
-  justify-content: center;
-  gap: 300px;
-  z-index: 20;
-  position: relative;
-  margin-top: -700px;
-}
-.H1 {
-  margin-top: 100px;
-  margin-bottom: 30px;
-}
-.TextList {
-  margin-bottom: 40px;
-  color: #ffffff;
-}
-.Container10 {
-  margin-top: 90px;
-  z-index: 30;
-  position: relative;
-}
-.Contact {
-  display: flex;
+  justify-content: space-between;
   gap: 20px;
-  justify-content: space-around;
-  margin-top: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 40px;
 }
-.TextSenter {
-  text-align: center;
-  padding-top: 20px;
-  margin: 0 auto;
-  width: 371px;
-  height: 71px;
-  box-shadow: 0 11px 29px rgba(255, 7, 95, 0.2);
-  background-image: linear-gradient(to bottom, #ff7c6e 1%, #f5317f 99%);
+.info-text {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 20px;
 }
-.TextTitle {
-  text-align: center;
+.info-content p {
+  margin-bottom: 20px;
 }
-.Input {
-  width: 571px;
-  height: 51px;
-  background-color: #f6f7fb;
-  border: none;
+.info-content {
+  max-width: 400px;
 }
-.button {
-  width: 171px;
-  height: 51px;
+.text-cart {
+  max-width: 543px;
+  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 10px;
+}
+.text-active {
+  max-width: 543px;
+  box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
   background-color: #33d2fd;
-  border: none;
-  margin-bottom: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
 }
-.Center {
-  justify-content: center;
+.btn-info-title {
+  max-width: 201px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #33d2fd;
+}
+.icon-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.content-iformoton {
+  display: flex;
+  gap: 40px;
   margin-top: 30px;
+}
+
+.informotion-title {
+  max-width: 400px;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
 }
-.footer {
-  width: 100%;
-  height: 100px;
-  background-color: #233148;
-}
-.Flex {
+
+.info-Smarfon-container {
   display: flex;
-  gap: 40px;
-  padding-top: 30px;
+  justify-content: space-around;
 }
-.Flex p {
-  color: #ffffff;
-}
-.Icons {
-  margin-left: 800px;
+.title-smatfon {
+  gap: 20px;
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
 }
-
-@media only screen and (max-width: 1100px) {
-  .menuHeder {
-    margin-right: 0;
-    justify-content: center;
-  }
-  .title {
-    margin-top: 100px;
-  }
-  header {
-    height: 100vh;
-  }
-
-  .Blok1 {
-    height: 900px;
-    margin-top: -20vh;
-  }
-  .Tel {
-    margin-top: -300px;
-  }
-  .Container3 {
-    flex-direction: column;
-    align-items: center;
-    margin-top: -600px;
-  }
-  .text {
-    margin-bottom: 20px;
-  }
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 20px;
-  }
-  .box1 img,
-  .box2 img,
-  .box3 img,
-  .box4 img {
-    margin-left: 0;
-  }
-  .Container4 {
-    margin-top: 100px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .Box5 h3 {
-    margin-left: 0;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .Box5 button {
-    width: 100%;
-    margin-top: 20px;
-  }
-  .Container6 {
-    margin-left: 0;
-    margin-top: 30px;
-  }
-  .flex {
-    width: 100%;
-    height: auto;
-    padding: 20px;
-  }
-  .flex img {
-    width: 40px;
-    height: 16px;
-  }
-  .flexs {
-    flex-direction: column;
-    align-items: center;
-  }
-  .box6 {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  .box6 h2 {
-    margin-left: 20px;
-    text-align: center;
-  }
-  .flexs p {
-    width: 200px;
-  }
-  .Container8 {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-  }
-
-  .Box8 {
-    margin-left: 100px;
-    margin-top: 20px;
-  }
-  .Containerss {
-    flex-direction: column;
-    margin-left: 30px;
-    gap: 60px;
-    margin-top: -270px;
-  }
-
-  .H1 {
-    margin-top: 20px;
-    text-align: center;
-    margin-top: -240px;
-  }
-  .TextC {
-    text-align: center;
-    margin-top: -20px;
-    margin-left: 45px;
-  }
-  .Smartphon {
-    height: 200px;
-  }
-  .Appl {
-    margin-left: 100px;
-  }
-  .Box9 {
-    margin-bottom: 20px;
-  }
-  .ContainerButton {
-    margin-bottom: 200px;
-  }
+.title-smatfon p {
+  max-width: 300px;
 }
-@media only screen and (max-width: 1400px) {
-  .menuHeder {
-    margin-right: 0;
-    justify-content: center;
-  }
-  .title {
-    margin-top: 100px;
-  }
-  header {
-    height: 100vh;
-  }
-
-  .Blok1 {
-    height: 900px;
-    margin-top: -20vh;
-  }
-  .Tel {
-    margin-top: -200px;
-  }
-  .Container3 {
-    flex-direction: column;
-    align-items: center;
-    margin-top: -600px;
-  }
-  .text {
-    margin-bottom: 20px;
-  }
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 20px;
-  }
-  .box1 img,
-  .box2 img,
-  .box3 img,
-  .box4 img {
-    margin-left: 0;
-  }
-  .Container4 {
-    margin-top: 100px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .Box5 h3 {
-    margin-left: 0;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .Box5 button {
-    width: 100%;
-    margin-top: 20px;
-  }
+.Appstore {
+  display: flex;
+  column-gap: 30px;
 }
-@media only screen and (min-width: 350px) and (max-width: 450px) {
-  body {
-    overflow-x: hidden;
-  }
-  .Containerss {
-    flex-direction: column;
-    margin-left: 20px;
-    gap: 40px;
-    margin-top: -270px;
-  }
-
-  .Input {
-    width: 400px;
-  }
-  .Input {
-    margin-left: 200px;
-  }
-  .TextTitle {
-    margin-right: 120px;
-  }
-  .Foto {
-    width: 559px;
-  }
-  .Blok1 {
-    width: 559px;
-  }
-  .H1 {
-    text-align: center;
-    margin-top: -200px;
-    font-size: 26px;
-    margin-left: 80px;
-  }
-  .TextList {
-    text-align: center;
-    font-size: 16px;
-    padding-left: 100px;
-    width: 400px;
-  }
-  .Smartphon {
-    height: 100px;
-    margin-top: 40px;
-  }
-  .Appl {
-    width: 60px;
-  }
-
-  .fon {
-    width: 100%;
-  }
-  .Box5 button {
-    width: 200px;
-    height: 51px;
-    margin: 0 auto;
-  }
-  .text3 {
-    width: 400px;
-    margin-left: 60px;
-    margin-bottom: 30px;
-  }
-  .Code {
-    margin-left: 150px;
-    width: 500px;
-  }
-  .Container3 {
-    margin-left: 80px;
-    width: 400px;
-  }
-
-  .Container6 {
-    margin-left: 170px;
-    width: 470px;
-  }
-  .fon {
-    width: 559px;
-  }
-  .Container10 {
-    margin-top: 50px;
-    margin-left: 10px;
-  }
-  .Contact {
+@media (max-width: 700px) {
+  .content-smart {
     display: flex;
     flex-direction: column;
-    margin-left: 140px;
   }
-  .TextSenter {
-    width: 300px;
-    height: 50px;
-    margin-left: 100px;
+  .smart-cart {
+    margin-bottom: 20px;
   }
-  .footer {
-    width: 530px;
+  .card-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info-Smart {
+    max-width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .info-Smart:last-of-type {
+    margin-right: 0;
+  }
+  .cart-2 {
+    order: 3;
+  }
+  .cart-3 {
+    order: 2;
+  }
+  .card-info {
+    width: 50%;
+    margin: 0 auto;
   }
 
-  .Icons {
-    margin-left: auto;
-    margin-right: auto;
+  .info-container {
+    flex-direction: column;
+    align-items: center;
   }
-  .TextTitle {
-    margin-left: 130px;
-  }
-  .Home {
+  .info-content,
+  div {
+    max-width: unset;
+    margin: 0;
     text-align: center;
-    margin-left: 40px;
   }
-  .Info {
-    margin-left: 40px;
+  .text-cart,
+  .text-active {
+    box-shadow: none;
   }
-  .IconsSmart {
-    padding-left: 170px;
+  .icons {
+    display: flex;
+    justify-content: flex-start;
   }
-  .footer {
-    width: 560px;
-  }
-}
-@media only screen and (min-width: 375px) {
-  .Container6 {
-    margin-left: 150px;
-  }
-}
-@media only screen and (min-width: 360px) {
-  .Container6 {
-    margin-left: 150px;
-  }
-  .text3 {
-    margin-left: 90px;
-  }
-  .Box8 {
-    margin-left: 120px;
-  }
-  .TextTitle {
-    margin-left: 170px;
-  }
-}
 
-@media only screen and (min-width: 820px) and (max-width: 1100px) {
-  .Containerss {
+  .content-iformoton {
+    display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    gap: 40px;
-    margin-top: -270px;
-  }
-  .Center {
-    margin-left: 200px;
-  }
-  .Smartphone {
-    margin-right: 140px;
-  }
-  .TextTitle {
-    margin-right: 80px;
-  }
-  .Foto {
-    width: 910px;
-  }
-  .Blok1 {
-    width: 910px;
+    margin-top: 30px;
   }
 
-  .ContainerGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 11px;
-    grid-row-gap: 13px;
-    margin-left: 320px;
+  .img-code {
+    width: 100%;
+    margin-bottom: 20px;
   }
-  .Container6 {
-    width: 6500px;
-    margin-bottom: 40px;
-    margin-left: 400px;
+
+  .informotion-title {
+    max-width: 100%;
+    margin-left: 0;
+    text-align: center;
   }
-  .IconsSmart {
-    margin-right: 200px;
-  }
-  .footer {
-    width: 910px;
-  }
-  .fon {
-    width: 910px;
-  }
-  .Smartphon {
-    margin-top: -200px;
-    width: 300px;
-    height: 400px;
-  }
-  .H1 {
-    margin-top: -400px;
-    margin-left: 300px;
-  }
-  .Appl {
-    margin-left: 300px;
-  }
-  .TextList {
-    margin-left: 270px;
-    width: 600px;
-  }
-  .Code {
-    width: 800px;
-  }
-  .Contact {
-    width: 500px;
-  }
-  .TextSenter {
-    margin-left: 300px;
-  }
-  .Contact h1 {
-    margin-left: 200px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 912px) {
-  .Containerss {
+
+  .info-Smarfon-container {
     flex-direction: column;
-    margin-left: 20px;
-    gap: 40px;
-    margin-top: -270px;
-  }
-  .TextTitle {
-    margin-left: 300px;
-  }
-  .Smartphone {
-    margin-left: 580px;
-  }
-  .Foto {
-    width: 1220px;
-  }
-  .Blok1 {
-    width: 1220px;
-  }
-  .Download {
-    margin-left: 100px;
+    align-items: center;
   }
 
-  .ContainerGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 101px;
-    /* grid-row-gap: 100px; */
-    margin-left: 400px;
-  }
-  .Container6 {
-    width: 600px;
-    margin-bottom: 40px;
-  }
-  .IconsSmart {
-    padding-left: 200px;
-  }
-  .footer {
-    width: 1220px;
-  }
-  .fon {
-    width: 1210px;
-  }
-  .Smartphon {
-    margin-top: -200px;
-    width: 300px;
-    height: 400px;
-  }
-  .H1 {
-    margin-top: -400px;
-    margin-left: 300px;
-    font-size: 33px;
-  }
-  .Appl {
-    margin-left: 300px;
-  }
-  .TextList {
-    margin-left: 270px;
-    width: 600px;
-    font-size: 26px;
-  }
-  .Code {
-    width: 1000px;
-    margin-left: 410px;
-  }
-  .Contact {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 13px;
-    margin-left: 250px;
-  }
-  .Home {
-    margin-left: 200px;
-  }
-  .TextSenter {
-    margin-left: 300px;
-  }
-  .Contact h1 {
-    margin-left: 200px;
-  }
-  .TextSenter {
-    margin-left: 400px;
-  }
-  .Input {
-    width: 500px;
-    margin-left: 200px;
-  }
-}
-@media only screen and (min-width: 450px) and (max-width: 800px) {
-  .TextTitle {
-    /* margin-left: 200px; */
-    padding-right: 200px;
-    width: 400px;
-  }
-  .flexs {
+  .title-smatfon {
+    margin-top: 30px;
+    text-align: center;
   }
 
-  .Input {
-    width: 500px;
-  }
-  .Smartphone {
-    margin-left: 700px;
-  }
-  .Download {
-    margin-left: 70px;
-  }
-  .Foto {
-    width: 1220px;
-  }
-  .Blok1 {
-    width: 1220px;
+  .Appstore {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .Container6 {
-    width: 800px;
-    margin-bottom: 40px;
-  }
-
-  .footer {
-    width: 1220px;
-  }
-  .fon {
-    width: 1210px;
-  }
-  .Smartphon {
-    margin-top: -200px;
-    width: 300px;
-    height: 400px;
-  }
-  .H1 {
-    margin-top: -500px;
-    margin-left: 300px;
-    font-size: 33px;
-  }
-  .Appl {
-    margin-left: 300px;
-  }
-  .TextList {
-    margin-left: 280px;
-    width: 600px;
-    font-size: 26px;
-  }
-  .Code {
-    width: 1000px;
-    margin-left: 700px;
-  }
-
-  .ContainerGrid {
-    margin-left: 600px;
-  }
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    width: 600px;
-  }
-  .box1 img,
-  .box2 img,
-  .box3 img,
-  .box4 img {
-    margin-left: 90px;
-  }
-  .Container4 {
-    margin-left: 460px;
-  }
-  .Box8 {
-    margin-left: 700px;
-    width: 500px;
-  }
-  .Container10 {
-    margin-left: 300px;
-  }
-
-  .Center {
-    margin-left: 170px;
-  }
-  .TextTitle p {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .Home {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .IconsSmart {
-    padding-left: 200px;
-  }
-  .TextSenter {
-    margin-left: 150px;
-  }
-}
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-  .TextTitle {
-    margin-left: 200px;
-  }
-  .Foto {
-    width: 1320px;
-  }
-  .Blok1 {
-    width: 1320px;
-  }
-
-  .Container6 {
-    width: 900px;
-    margin-bottom: 40px;
-    /* margin-left: 130px; */
-  }
-  .IconsSmart {
-    padding-left: 200px;
-  }
-  .footer {
-    width: 1320px;
-  }
-  .fon {
-    width: 1320px;
-  }
-  .Smartphon {
-    margin-top: -200px;
-    width: 300px;
-    height: 400px;
-  }
-  .H1 {
-    margin-top: -400px;
-    margin-left: 300px;
-    font-size: 33px;
-  }
-  .Appl {
-    margin-left: 300px;
-  }
-  .TextList {
-    margin-left: 300px;
-    width: 600px;
-    font-size: 26px;
-  }
-  .Code {
-    width: 1000px;
-    margin-left: 590px;
-  }
-
-  .ContainerGrid {
-    margin-left: 600px;
-  }
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    width: 500px;
-  }
-  .box1 img,
-  .box2 img,
-  .box3 img,
-  .box4 img {
-    margin-left: 10px;
-  }
-  .Container4 {
-    margin-left: 420px;
-  }
-  .Box8 {
-    margin-left: 700px;
-    width: 500px;
-  }
-  .Container10 {
-    margin-left: 300px;
-  }
-
-  .Center {
-    margin-left: 170px;
-  }
-  .ContainerGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 11px;
-    grid-row-gap: 13px;
-    margin-left: 630px;
-  }
-  .text3 {
-    font-size: 26px;
-  }
-  .Input {
-    width: 700px;
+  .Appstore img {
+    margin-right: 10px;
   }
 }
