@@ -144,6 +144,36 @@
   display: flex;
   column-gap: 30px;
 }
+.gap-title {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.title-footer {
+  text-align: center;
+}
+.footer-contac {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-info-contac {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-con {
+  display: flex;
+  background-color: #33d2fd;
+  padding: 20px;
+  justify-content: space-between;
+}
+.mesej {
+  display: flex;
+  column-gap: 40px;
+  padding-right: 20px;
+}
+
 @media (max-width: 700px) {
   .content-smart {
     display: flex;
@@ -231,5 +261,28 @@
 
   .Appstore img {
     margin-right: 10px;
+  }
+  .gap-title {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-contac {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-info-contac {
+    gap: 20px;
+  }
+
+  .footer-con {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mesej {
+    margin-top: 20px;
   }
 }
