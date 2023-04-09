@@ -25,7 +25,8 @@
 }
 
 .smart-center-header {
-  margin-bottom: 30px;
+  display: flex;
+  margin: 0 auto;
 }
 .nav-list {
   display: flex;
@@ -197,9 +198,22 @@
 }
 
 @media (max-width: 700px) {
+  .header-title {
+    font-size: 11px;
+    margin-top: -60px;
+  }
+  .smart-center-header{
+    max-width: 100px;
+    margin-top:-25px
+  }
   .fon1 {
     left: 50%;
     transform: translateX(-50%);
+  }
+  .fon2{
+    margin-top: -140px;
+    position: absolute;
+    z-index: 2;
   }
   .content-smart {
     display: flex;
