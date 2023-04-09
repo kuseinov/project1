@@ -2,38 +2,59 @@
 .fon1 {
   z-index: 1;
   position: absolute;
+  width: 2600px;
 }
 .fon2 {
+  z-index: 2;
+  position: absolute;
+  width: 2600px;
+}
+.fon3 {
   z-index: 1;
   position: absolute;
+  width: 2600px;
 }
 .containers {
-  top: 0;
   z-index: 2;
   position: relative;
-  max-width: 100%;
+  max-width: 1230%;
   padding: 0 80px;
   margin: 0 auto;
 }
+.contaners {
+  max-width: 100%;
+  padding: 0 40px;
+}
 .contanerss {
-  top: 300px;
   z-index: 3;
   position: relative;
   max-width: 100%;
   padding: 0 80px;
   margin: 0 auto;
 }
+.contanersss {
+  z-index: 3;
+  position: relative;
+  max-width: 100%;
+  padding: 0 80px;
+  padding-top: 50px;
+}
 
 .smart-center-header {
   display: flex;
   margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  top: 240px;
 }
 .nav-list {
   display: flex;
   justify-content: flex-end;
   column-gap: 40px;
   margin-bottom: 100px;
-  margin-right: 50px;
+  margin-right: 40px;
+  color: #ffffff;
+  padding-top: 20px;
 }
 .header-title {
   display: flex;
@@ -41,13 +62,35 @@
   align-items: center;
   gap: 10px;
 }
+.header-title p {
+  color: #ffffff;
+}
+.header-title h1 {
+  color: #ffffff;
+  font-size: 45px;
+  max-width: 500px;
+  font-weight: 700;
+}
+.btn1 {
+  max-width: 169px;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.btn2 {
+  max-width: 169px;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
 .btn-header {
   margin-bottom: 30px;
 }
 .info-Smart {
-  max-width: 200px;
+  max-width: 271px;
   background-color: aqua;
   border-radius: 5px;
+  background-color: #ffffff;
 }
 .corzina-card {
   display: flex;
@@ -65,6 +108,7 @@
 }
 .content-smart {
   display: flex;
+  padding-top: 400px;
   justify-content: space-around;
 }
 .card-info {
@@ -78,29 +122,34 @@
 .cart-2 {
   margin-top: 50px;
   margin-left: 20px;
+  max-width: 271px;
+  background-color: #ffffff;
 }
 .cart-3 {
   margin-top: 50px;
+  max-width: 271px;
   margin-left: -30px;
+  background-color: #ffffff;
 }
 
 .info-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
-  margin-top: 700px;
+  margin-top: 400px;
   height: 600px;
 }
 .info-text {
   display: flex;
   justify-content: end;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
   font-weight: 700;
   margin-top: 20px;
 }
 .info-content p {
   margin-bottom: 20px;
+  color: #6a6b89;
 }
 .info-content {
   max-width: 400px;
@@ -138,8 +187,24 @@
 
 .content-iformoton {
   display: flex;
-  gap: 40px;
+  justify-content: space-around;
   margin-top: 30px;
+}
+.texttext {
+  font-size: 14px;
+  color: #6a6b89;
+  margin-bottom: 5%;
+}
+.Available {
+  font-size: 30px;
+  font-weight: 700;
+}
+.text-2 {
+  color: #ffffff;
+}
+.Texth1 {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .informotion-title {
@@ -154,6 +219,7 @@
   display: flex;
   justify-content: space-around;
 }
+
 .title-smatfon {
   gap: 20px;
   display: flex;
@@ -163,6 +229,7 @@
 .title-smatfon p {
   max-width: 300px;
 }
+
 .Appstore {
   display: flex;
   column-gap: 30px;
@@ -170,10 +237,22 @@
 .gap-title {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
+  margin-top: 300px;
+}
+.btn4 {
+  text-align: center;
+  padding: 20px 50px;
+  z-index: 6;
+  position: absolute;
+  box-shadow: 0 11px 29px rgba(255, 7, 95, 0.2);
+  background-image: linear-gradient(to bottom, #ff7c6e 1%, #f5317f 99%);
 }
 .title-footer {
-  text-align: center;
+  display: flex;
+  margin-top: -120px;
+  margin-bottom: 300px;
+  justify-content: center;
 }
 .footer-contac {
   display: flex;
@@ -202,25 +281,44 @@
     font-size: 11px;
     margin-top: -60px;
   }
-  .smart-center-header{
+  .Available {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .smart-center-header {
     max-width: 100px;
-    margin-top:-25px
+    top: -20px;
+    /* margin-top: -205px;
+    z-index: 10;
+    position: relative; */
   }
   .fon1 {
     left: 50%;
     transform: translateX(-50%);
   }
-  .fon2{
-    margin-top: -140px;
+  .fon2 {
+    top: 230px;
     position: absolute;
     z-index: 2;
   }
+  .fon3 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .content-smart {
+    margin-top: -400px;
     display: flex;
     flex-direction: column;
   }
+  .contanerss {
+    z-index: 3;
+    position: relative;
+    top: -20px;
+  }
   .smart-cart {
     margin-bottom: 20px;
+    max-width: 100px;
+    margin-top: -30%;
   }
   .card-info {
     display: flex;
@@ -249,6 +347,7 @@
   .info-container {
     flex-direction: column;
     align-items: center;
+    margin-top: -0px;
   }
   .info-content,
   div {
@@ -259,6 +358,8 @@
   .text-cart,
   .text-active {
     box-shadow: none;
+    display: flex;
+    column-gap: 20px;
   }
   .icons {
     display: flex;
@@ -283,22 +384,35 @@
   }
 
   .info-Smarfon-container {
-    flex-direction: column;
     align-items: center;
+    column-gap: 30px;
+    margin-top: -30px;
   }
 
   .title-smatfon {
-    margin-top: 30px;
-    text-align: center;
+    /* margin-top: 30px; */
+    font-size: 10px;
   }
 
   .Appstore {
-    margin-top: 30px;
+    margin-top: -10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 50px;
+  }
+  .telfon {
+    max-width: 80px;
+    display: flex;
+  }
+  .header-title h1 {
+    font-size: 10px;
+    max-width: 100%;
   }
 
+  .btn1,
+  .btn2 {
+    max-width: 100%;
+    padding: 1px 5px;
+  }
   .Appstore img {
     margin-right: 10px;
   }
@@ -306,6 +420,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    margin-top: 10%;
   }
 
   .footer-contac {
@@ -324,5 +439,19 @@
 
   .mesej {
     margin-top: 20px;
+  }
+  .btn4 {
+    text-align: center;
+    padding: 10px 20px;
+    z-index: 6;
+    position: absolute;
+    box-shadow: 0 11px 29px rgba(255, 7, 95, 0.2);
+    background-image: linear-gradient(to bottom, #ff7c6e 1%, #f5317f 99%);
+  }
+  .title-footer {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    justify-content: center;
   }
 }
